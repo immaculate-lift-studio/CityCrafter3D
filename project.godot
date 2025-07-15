@@ -12,11 +12,8 @@ config_version=5
 
 config/name="CityCrafter 3D"
 config/features=PackedStringArray("4.4", "Forward Plus")
+config/icon="uid://cxuqsdntpt6u1"
 
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/citycrafter/plugin.cfg")
-
-[rendering]
-
-anti_aliasing/quality/use_taa=true
