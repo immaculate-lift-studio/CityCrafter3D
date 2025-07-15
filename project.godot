@@ -1,0 +1,22 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="CityCrafter 3D"
+config/features=PackedStringArray("4.4", "Forward Plus")
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/citycrafter/plugin.cfg")
+
+[rendering]
+
+anti_aliasing/quality/use_taa=true
