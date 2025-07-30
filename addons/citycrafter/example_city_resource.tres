@@ -65,7 +65,7 @@
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4r5uf"]
 albedo_color = Color(0.530615, 0.603172, 0.636699, 1)
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_oxda6"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tbwse"]
 albedo_color = Color(0.14836, 0.350252, 0.182851, 1)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i8xcm"]
@@ -87,8 +87,8 @@ industrial_buildings = Array[PackedScene]([ExtResource("20_uxwtm"), ExtResource(
 road_material = SubResource("StandardMaterial3D_ba7q8")
 intersection_material = SubResource("StandardMaterial3D_x48he")
 subdivision_road_material = SubResource("StandardMaterial3D_xh8k1")
-ground_material = SubResource("StandardMaterial3D_oxda6")
-residential_ground_material = SubResource("StandardMaterial3D_oxda6")
+ground_material = SubResource("StandardMaterial3D_tbwse")
+residential_ground_material = SubResource("StandardMaterial3D_tbwse")
 commercial_ground_material = SubResource("StandardMaterial3D_4r5uf")
 industrial_ground_material = SubResource("StandardMaterial3D_i8xcm")
 grid_width = 10
@@ -96,6 +96,10 @@ grid_height = 10
 block_size = 200.0
 street_width = 25.0
 empty_block_chance = 0.01
+enable_multi_size_blocks = true
+large_block_chance = 0.15
+wide_block_chance = 0.1
+tall_block_chance = 0.1
 enable_edge_variations = true
 edge_variation_chance = 0.3
 max_edge_variation = 2
