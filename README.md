@@ -1,4 +1,6 @@
-# CityCrafter 3D    <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/2002892d-fca9-46d3-aef8-d6dde141913c" />
+# CityCrafter 3D   <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/1c0c4495-791e-403c-9805-22fe40b9377c" />
+
+<img width="1474" height="849" alt="image" src="https://github.com/user-attachments/assets/c9575828-f219-4eba-8d2c-5556f3556ca1" />
 
 City Generation tool for Godot 4.4
 
@@ -12,6 +14,9 @@ This is a city generator that builds cities using a slot-based grid system. Each
 ## What this tool is:
 * A fast way to generate blocky, retro-style city layouts.
 * A good starting point for developers that don't have the time or skill to manually place hundreds or thousands of buildings.
+
+<img width="800" height="577" alt="image" src="https://github.com/user-attachments/assets/e60f3635-7e94-4361-bd72-2b6c9d6b0055" />
+
 
 ## What this tool is NOT:
 * This does not do all the work for you - You will most likely need to do manual cleanup, move buildings on occasion, etc. especially if you're using unique tscn files. This tool is designed to give you a strong framework, but procedural generation cannot replace true artistic creativity.
