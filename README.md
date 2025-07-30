@@ -1,8 +1,6 @@
 # CityCrafter 3D   <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/1c0c4495-791e-403c-9805-22fe40b9377c" />
-
-<img width="1474" height="849" alt="image" src="https://github.com/user-attachments/assets/c9575828-f219-4eba-8d2c-5556f3556ca1" />
-
 City Generation tool for Godot 4.4
+<img width="1474" height="835" alt="image" src="https://github.com/user-attachments/assets/d02e9a8b-0607-4791-a4eb-e2ffa4e6a3c9" />
 
 ## Description
 This is a city generator that builds cities using a slot-based grid system. Each block can be different sizes (1x1, 2x1, 2x2), and blocks are assigned district types (residential, commercial, industrial) using noise or random placement.
@@ -15,11 +13,10 @@ This is a city generator that builds cities using a slot-based grid system. Each
 * A fast way to generate blocky, retro-style city layouts.
 * A good starting point for developers that don't have the time or skill to manually place hundreds or thousands of buildings.
 
-<img width="800" height="577" alt="image" src="https://github.com/user-attachments/assets/e60f3635-7e94-4361-bd72-2b6c9d6b0055" />
-
+![Alt Text](https://github.com/immaculate-lift-studio/CityCrafter/blob/main/addons/citycrafter/assets/citycrafter_demonstration.gif))
 
 ## What this tool is NOT:
-* This does not do all the work for you - You will most likely need to do manual cleanup, move buildings on occasion, etc. especially if you're using unique tscn files. This tool is designed to give you a strong framework, but procedural generation cannot replace true artistic creativity.
+* This does not do all the work for you - You will likely need to do manual cleanup, move buildings on occasion, especially if you're using unique tscn files. This tool is designed to give you a strong framework, but procedural generation cannot replace true artistic creativity.
 * This doesn't optimize scenes for you - There's some material and mesh sharing with the roads/intersections, but if your building tscn files don't follow best practices, CityCrafter won't fix your mistakes. See the tips section for help in that regard.
 
 ## Installation
@@ -33,10 +30,10 @@ To begin, add a CityCrafter node to your scene. You will then need to go into th
 All generation settings are managed through the `CityConfiguration` resource.
 | Section                 | Property                     | Description                                      |
 |------------------------|------------------------------|--------------------------------------------------|
-| **Building Collections** | `residential_buildings`      | Array of residential building scenes             |
-|                        | `commercial_buildings`       | Array of commercial building scenes              |
-|                        | `industrial_buildings`       | Array of industrial building scenes              |
-| **Materials**          | `road_material`              | Material used for primary road segments          |
+| **Building Collections** | `residential_buildings`      | Array of residential buildings            |
+|                        | `commercial_buildings`       | Array of commercial buildings             |
+|                        | `industrial_buildings`       | Array of industrial buildings            |
+| **Materials**          | `road_material`              | Material used for primary roads         |
 |                        | `intersection_material`      | Material used for intersections                  |
 |                        | `subdivision_road_material`  | Material used for subdivision roads              |
 |                        | `ground_material`            | Default ground material                          |
@@ -45,27 +42,27 @@ All generation settings are managed through the `CityConfiguration` resource.
 |                        | `industrial_ground_material` | Override ground for industrial blocks            |
 | **City Layout Settings** | `grid_width`                | Number of blocks horizontally                    |
 |                        | `grid_height`                | Number of blocks vertically                      |
-|                        | `block_size`                 | Size of a standard block in world units          |
-|                        | `street_width`               | Gap between blocks (road width)                  |
+|                        | `block_size`                 | Size of a standard block         |
+|                        | `street_width`               | Primary road width                |
 |                        | `empty_block_chance`         | Chance a block is skipped entirely               |
 | **Multi-Size Blocks** | `enable_multi_size_blocks`   | Enables 2x2, 2x1, 1x2 block types                |
 |                        | `large_block_chance`         | Chance of spawning a 2x2 block                   |
 |                        | `wide_block_chance`          | Chance of spawning a 2x1 block                   |
 |                        | `tall_block_chance`          | Chance of spawning a 1x2 block                   |
-| **City Shape Variations** | `enable_edge_variations`  | Enables edge distortion for outermost blocks     |
-|                        | `edge_variation_chance`      | Chance of variation per edge block               |
+| **City Shape Variations** | `enable_edge_variations`  | Adds a chance to have extra blocks at the edge     |
+|                        | `edge_variation_chance`      | Chance of edge variation              |
 |                        | `max_edge_variation`         | Maximum units of offset at edges                 |
 |                        | `enable_random_extensions`   | Adds random branches outside the grid            |
 |                        | `random_extensions_count`    | Max number of branches to try                    |
 |                        | `extension_spawn_chance`     | Chance of each branch spawning                   |
-| **District Settings** | `district_mode`              | Enum: noise-based, zoned, or random              |
+| **District Settings** | `district_mode`              | Noise-based, zoned, or random distribution             |
 |                        | `residential_ratio`          | Ratio of city blocks for residential             |
 |                        | `commercial_ratio`           | Ratio of city blocks for commercial              |
 |                        | `industrial_ratio`           | Ratio of city blocks for industrial              |
 |                        | `noise_scale`                | Controls how zoomed in the noise pattern is      |
-| **Residential Density** | `enable_residential_subdivisions` | Enables subdivision inside blocks         |
-|                        | `subdivision_mode`           | Enum: fixed or random layout                     |
-|                        | `subdivision_layout`         | Enum: 2x2, 2x3, or 3x3 layout                    |
+| **Residential Density** | `enable_residential_subdivisions` | Enables subdivision inside residential blocks         |
+|                        | `subdivision_mode`           | Fixed or random layout                     |
+|                        | `subdivision_layout`         | 2x2, 2x3, or 3x3 layout                    |
 |                        | `subdivision_street_width`   | Width of internal subdivision roads              |
 |                        | `residential_buildings_min`  | Min number of residential buildings per block    |
 |                        | `residential_buildings_max`  | Max number of residential buildings per block    |
@@ -79,13 +76,13 @@ All generation settings are managed through the `CityConfiguration` resource.
 |                        | `industrial_buildings_max`   | Maximum buildings per industrial block           |
 |                        | `industrial_spacing`         | Spacing between industrial buildings             |
 |                        | `industrial_border_margin`   | Margin around industrial block edges             |
-| **Building Variations** | `rotation_mode`             | Enum: Free, 90 Degrees, or No Rotation           |
+| **Building Variations** | `rotation_mode`             | Free, 90 Degrees, or No Rotation           |
 |                        | `scale_variation`            | Randomized scale offset (-1.0 to 1.0)            |
-| **Ground and Roads**   | `generate_roads`             | Enables road mesh generation                     |
-|                        | `generate_intersections`     | Enables intersection mesh generation             |
+| **Ground and Roads**   | `generate_roads`             | Enables road generation                     |
+|                        | `generate_intersections`     | Enables intersection generation             |
 |                        | `intersection_height_offset` | Z-offset for intersections                       |
 |                        | `generate_subdivision_roads` | Enables roads inside subdivisions                |
-|                        | `generate_ground`            | Enables flat ground generation                   |
+|                        | `generate_ground`            | Enables flat ground generation inside each block                  |
 |                        | `ground_height_offset`       | Z-offset for ground mesh                         |
 
 ## Performance Tips
