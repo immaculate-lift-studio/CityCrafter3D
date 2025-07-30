@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bh3b0t16wdquk"
+path="res://.godot/imported/chimney-basic.obj-37eccb9fd0aa324a57aa2358d47cd491.mesh"
+
+[deps]
+
+files=["res://.godot/imported/chimney-basic.obj-37eccb9fd0aa324a57aa2358d47cd491.mesh"]
+
+source_file="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/OBJ format/chimney-basic.obj"
+dest_files=["res://.godot/imported/chimney-basic.obj-37eccb9fd0aa324a57aa2358d47cd491.mesh", "res://.godot/imported/chimney-basic.obj-37eccb9fd0aa324a57aa2358d47cd491.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

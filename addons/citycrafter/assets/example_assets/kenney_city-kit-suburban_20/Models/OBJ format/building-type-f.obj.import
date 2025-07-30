@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://0dq44cprok5f"
+path="res://.godot/imported/building-type-f.obj-c62d1eab9dd62f300c9b439ca0b5f36d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/building-type-f.obj-c62d1eab9dd62f300c9b439ca0b5f36d.mesh"]
+
+source_file="res://addons/citycrafter/assets/example_assets/kenney_city-kit-suburban_20/Models/OBJ format/building-type-f.obj"
+dest_files=["res://.godot/imported/building-type-f.obj-c62d1eab9dd62f300c9b439ca0b5f36d.mesh", "res://.godot/imported/building-type-f.obj-c62d1eab9dd62f300c9b439ca0b5f36d.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

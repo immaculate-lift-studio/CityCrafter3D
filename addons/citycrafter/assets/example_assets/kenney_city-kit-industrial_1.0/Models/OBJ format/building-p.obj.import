@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://08j2o6x3svxn"
+path="res://.godot/imported/building-p.obj-75f9928f668c5ee0e9e074f36cfd5e4e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/building-p.obj-75f9928f668c5ee0e9e074f36cfd5e4e.mesh"]
+
+source_file="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/OBJ format/building-p.obj"
+dest_files=["res://.godot/imported/building-p.obj-75f9928f668c5ee0e9e074f36cfd5e4e.mesh", "res://.godot/imported/building-p.obj-75f9928f668c5ee0e9e074f36cfd5e4e.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
