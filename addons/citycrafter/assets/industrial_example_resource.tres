@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="CityConfiguration" load_steps=33 format=3 uid="uid://dn0lletxteo5k"]
+
+[ext_resource type="PackedScene" uid="uid://c87t7uurpj1ui" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/building-a.glb" id="20_1sphh"]
+[ext_resource type="PackedScene" uid="uid://bc13tpos87fvs" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/chimney-basic.glb" id="21_46bmb"]
+[ext_resource type="PackedScene" uid="uid://maa5sptvlbtq" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/building-b.glb" id="21_jeg5j"]
+[ext_resource type="PackedScene" uid="uid://bnmm4ppn065oi" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/chimney-large.glb" id="22_qj4rb"]
+[ext_resource type="PackedScene" uid="uid://l6wd6nruwhme" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/building-c.glb" id="22_qtnue"]
+[ext_resource type="PackedScene" uid="uid://cjlo350pv0arg" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/building-d.glb" id="23_7lqph"]
+[ext_resource type="PackedScene" uid="uid://dl8aoxdb4m5gp" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/chimney-medium.glb" id="23_34wd0"]
+[ext_resource type="PackedScene" uid="uid://5vjupeyy8s2j" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/building-e.glb" id="24_0vcq1"]
+[ext_resource type="PackedScene" uid="uid://wmxe6h0ucp2d" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/chimney-small.glb" id="24_fgb4c"]
+[ext_resource type="PackedScene" uid="uid://d3frxwietihp6" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/detail-tank.glb" id="25_nwk3f"]
+[ext_resource type="PackedScene" uid="uid://ccxeeoyddwtue" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/building-f.glb" id="25_oa7i5"]
+[ext_resource type="PackedScene" uid="uid://cy71gltk2a543" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/building-g.glb" id="26_mgml2"]
+[ext_resource type="PackedScene" uid="uid://cvhhi6ug2dryt" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/building-h.glb" id="27_t4o4j"]
+[ext_resource type="PackedScene" uid="uid://dh6ldrv2qt52x" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/building-i.glb" id="28_7nb6k"]
+[ext_resource type="PackedScene" uid="uid://ckx6dftgo4xec" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/building-j.glb" id="29_70bep"]
+[ext_resource type="PackedScene" uid="uid://btabhtfvwj82h" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/building-k.glb" id="30_0gu8y"]
+[ext_resource type="PackedScene" uid="uid://b3lvy4s3gvhtd" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/building-l.glb" id="31_uxudw"]
+[ext_resource type="PackedScene" uid="uid://dr5hnc80e0wgg" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/building-m.glb" id="32_axyuu"]
+[ext_resource type="PackedScene" uid="uid://cb0kugj8soulr" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/building-n.glb" id="33_5qqvv"]
+[ext_resource type="PackedScene" uid="uid://dybdew2vjr41o" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/building-o.glb" id="34_pn45p"]
+[ext_resource type="PackedScene" uid="uid://b1a1d5vxg8wn7" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/building-p.glb" id="35_dvlrw"]
+[ext_resource type="PackedScene" uid="uid://bpuqricjoovqi" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/building-q.glb" id="36_rssij"]
+[ext_resource type="PackedScene" uid="uid://waj4urnj4bro" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/building-r.glb" id="37_h3edl"]
+[ext_resource type="PackedScene" uid="uid://dobvlyj456eju" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/building-s.glb" id="38_l1csi"]
+[ext_resource type="PackedScene" uid="uid://c7dnyg3ppi61e" path="res://addons/citycrafter/assets/example_assets/kenney_city-kit-industrial_1.0/Models/GLB format/building-t.glb" id="39_u0fo8"]
+[ext_resource type="Script" uid="uid://bdjvc6rbjwwvg" path="res://addons/citycrafter/city_configuration.gd" id="61_noocr"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4r5uf"]
+albedo_color = Color(0.530615, 0.603172, 0.636699, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tbwse"]
+albedo_color = Color(0.193098, 0.439873, 0.235296, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cddoe"]
+albedo_color = Color(0.660136, 0.577185, 0.439985, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_x48he"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ba7q8"]
+albedo_color = Color(0.501407, 0.501406, 0.501406, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xh8k1"]
+albedo_color = Color(0.662452, 0.662452, 0.662452, 1)
+
+[resource]
+script = ExtResource("61_noocr")
+residential_buildings = Array[PackedScene]([])
+commercial_buildings = Array[PackedScene]([])
+industrial_buildings = Array[PackedScene]([ExtResource("20_1sphh"), ExtResource("21_jeg5j"), ExtResource("22_qtnue"), ExtResource("23_7lqph"), ExtResource("24_0vcq1"), ExtResource("25_oa7i5"), ExtResource("26_mgml2"), ExtResource("27_t4o4j"), ExtResource("28_7nb6k"), ExtResource("29_70bep"), ExtResource("30_0gu8y"), ExtResource("31_uxudw"), ExtResource("32_axyuu"), ExtResource("33_5qqvv"), ExtResource("34_pn45p"), ExtResource("35_dvlrw"), ExtResource("36_rssij"), ExtResource("37_h3edl"), ExtResource("38_l1csi"), ExtResource("39_u0fo8"), ExtResource("21_46bmb"), ExtResource("22_qj4rb"), ExtResource("23_34wd0"), ExtResource("24_fgb4c"), ExtResource("25_nwk3f")])
+road_material = SubResource("StandardMaterial3D_ba7q8")
+intersection_material = SubResource("StandardMaterial3D_x48he")
+subdivision_road_material = SubResource("StandardMaterial3D_xh8k1")
+ground_material = SubResource("StandardMaterial3D_tbwse")
+residential_ground_material = SubResource("StandardMaterial3D_tbwse")
+commercial_ground_material = SubResource("StandardMaterial3D_4r5uf")
+industrial_ground_material = SubResource("StandardMaterial3D_cddoe")
+grid_width = 10
+grid_height = 8
+block_size = 100.0
+street_width = 25.0
+empty_block_chance = 0.2
+enable_multi_size_blocks = true
+large_block_chance = 0.15
+wide_block_chance = 0.1
+tall_block_chance = 0.1
+enable_edge_variations = true
+edge_variation_chance = 0.5
+max_edge_variation = 20
+enable_random_extensions = true
+random_extensions_count = 20
+extension_spawn_chance = 0.4
+district_mode = 0
+residential_ratio = 0.0
+commercial_ratio = 0.0
+industrial_ratio = 1.0
+noise_scale = 0.1
+enable_residential_subdivisions = false
+subdivision_mode = 1
+subdivision_layout = 0
+subdivision_street_width = 8.0
+residential_buildings_min = 3
+residential_buildings_max = 6
+residential_spacing = 30.0
+residential_border_margin = 0.0
+commercial_buildings_min = 16
+commercial_buildings_max = 20
+commercial_spacing = 35.0
+commercial_border_margin = 25.0
+industrial_buildings_min = 25
+industrial_buildings_max = 30
+industrial_spacing = 35.0
+industrial_border_margin = 25.0
+rotation_mode = 1
+scale_variation = 0.3
+generate_roads = false
+generate_intersections = false
+intersection_height_offset = 0.01
+generate_subdivision_roads = false
+generate_ground = true
+ground_height_offset = 0.0
