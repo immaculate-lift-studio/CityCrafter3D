@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="CityCrafter 3D"
-config/features=PackedStringArray("4.4", "Forward Plus")
+config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="uid://cxuqsdntpt6u1"
 
 [editor_plugins]
